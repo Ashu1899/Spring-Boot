@@ -37,6 +37,7 @@ public class AlienController
 	public List<Alien> getAliens()
 	{
 		return repo.findAll();
+		//its fetching all list
 		
 		
 	}
